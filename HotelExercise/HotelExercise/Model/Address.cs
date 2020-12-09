@@ -2,7 +2,7 @@
 
 namespace HotelExercise.Model
 {
-    public class Adress
+    public class Address
     {
         public int Id { get; set; }
 

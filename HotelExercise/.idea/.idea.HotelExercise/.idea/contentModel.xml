@@ -9,10 +9,19 @@
       <e p="HotelExercise" t="IncludeRecursive">
         <e p="appsettings.json" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
-        <e p="Controller" t="Include" />
+        <e p="Controller" t="Include">
+          <e p="HotelController.cs" t="Include" />
+        </e>
+        <e p="HotelContext.cs" t="Include" />
+        <e p="HotelContextFactory.cs" t="Include" />
         <e p="HotelExercise.csproj" t="IncludeRecursive" />
+        <e p="Migrations" t="Include">
+          <e p="20201209233653_init.cs" t="Include" />
+          <e p="20201209233653_init.Designer.cs" t="Include" />
+          <e p="HotelContextModelSnapshot.cs" t="Include" />
+        </e>
         <e p="Model" t="Include">
-          <e p="Adress.cs" t="Include" />
+          <e p="Address.cs" t="Include" />
           <e p="Hotel.cs" t="Include" />
           <e p="Price.cs" t="Include" />
           <e p="RoomType.cs" t="Include" />
